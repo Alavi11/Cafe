@@ -3,6 +3,7 @@ import "./Navbar.css"
 import { AiOutlineMenu } from "react-icons/ai";
 import { useState } from 'react';
 import { FiX } from "react-icons/fi";
+import DropdownMenu from '../dropdownmenu/DropdownMenu';
 
 
 const Navbar = () => {
@@ -19,7 +20,7 @@ const Navbar = () => {
                 <div className={showmenu ? "menu menu-showe menu-hiden" : "menu menu-hiden"}>
                     <ul className="navbar-menu">
                         <li>خانه</li>
-                        <li>سفارش </li>
+                        <li id="DDM-li">سفارش<DropdownMenu/></li>
                         <li>ثبت نام</li>
                         <li>ورود</li>
                         <li>درباره ما</li>
