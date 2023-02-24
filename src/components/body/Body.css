@@ -86,3 +86,76 @@
     background:linear-gradient(45deg,rgba(168, 93, 50, 0.405),rgba(255, 217, 0,0.405));
     padding: 20px 0;
 }
+
+
+@media screen and (max-width:1700px){
+    .card{
+        width: 40%;
+    }
+    .hot-food{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hot-drink{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:1500px){
+    .card{
+        width: 45%;
+    }
+}
+@media screen and (max-width:1200px){
+    .card{
+        width: 50%;
+    }
+}
+@media screen and (max-width:1200px){
+    .card{
+        width: 50%;
+        height: 400px;
+    }
+}
+@media screen and (max-width:900px){
+    .card{
+        height: 350px;
+    }
+}
+@media screen and (max-width:700px){
+    .card{
+        height: 300px;
+    }
+}
+@media screen and (max-width:680px){
+    .card{
+        height: 250px;
+    }
+    .hot-drink-title{
+        font-size: 20px;
+    }
+    .hot-food-title{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:690px){
+    .details-first h1{
+        font-size: 20px;
+    }
+    .details-first h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .card{
+        width: 100%;
+        height: 300px;
+    }
+}
+@media screen and (max-width:350px){
+    .card{
+        width: 100%;
+        height: 200px;
+    }
+}
