@@ -4,6 +4,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { useState } from 'react';
 import { FiX } from "react-icons/fi";
 import DropdownMenu from '../dropdownmenu/DropdownMenu';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -21,8 +22,8 @@ const Navbar = () => {
                     <ul className="navbar-menu">
                         <li>خانه</li>
                         <li id="DDM-li">سفارش<DropdownMenu/></li>
-                        <li>ثبت نام</li>
-                        <li>ورود</li>
+                        <Link to={"/register"}><li>ثبت نام</li></Link>
+                        <Link to={"/login"}><li>ورود</li></Link>
                         <li>درباره ما</li>
                     </ul>
                 </div>

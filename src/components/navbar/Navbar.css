@@ -39,6 +39,9 @@
     display: flex;
     justify-content: space-between;
 }
+.navbar-menu a{
+    color: black;
+}
 .navbar-menu li{
     width: 70px;
     height: 30px;
