@@ -44,7 +44,7 @@ const Body = () => {
                                         <h2 style={{marginBottom:"10px"}}>قیمت : {item.price} تومان</h2>
                                     </div>
                                     <p>ترکیبات : {item.compounds}</p>
-                                    <Link to={`/details/${item.id}`}><button>سفارش</button></Link>
+                                    <Link to={`/${item.id}`}><button>سفارش</button></Link>
                                 </div>
                             </div>
                         </>
