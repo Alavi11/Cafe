@@ -10,9 +10,12 @@ const Resuser =(cart = [] ,action)=>{
             return cart;
         }
     }
-
-
-
+    if(action.type === "REMOVE"){
+        let product = cart.filter((item)=> item.id !== action.payload.id);
+        cart = product;
+        return cart
+    }
+    
     return cart;
 }
 
